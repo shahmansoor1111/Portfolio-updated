@@ -107,9 +107,7 @@ export default function Hero() {
             <a href={personal.socials.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <FiLinkedin size={19} />
             </a>
-            <a href={personal.socials.twitter} target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-              <FiTwitter size={19} />
-            </a>
+           
           </div>
         </div>
 

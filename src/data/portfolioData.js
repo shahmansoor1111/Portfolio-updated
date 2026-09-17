@@ -5,6 +5,7 @@
 import profilePhoto from "../images/shahmeer.png";
 import zaheen from "../images/za.png";
 import fg from "../images/fg.jpeg";
+import gym from "../images/exback1.avif"
 export const personal = {
   name: "Shah Mansoor",
   title: "Frontend Engineer",
@@ -65,32 +66,35 @@ export const skills = {
 
 export const experience = [
   {
-    id: "exp-1",
-    role: "Frontend Engineer",
-    company: "Fits Digital",
-    location: "Islamabad, Pakistan",
-    period: "Present",
-    status: "current",
-    points: [
-      "Promoted to a full-time Frontend Engineer role after a 1-month internship, based on delivery and code quality.",
-      "Currently building Zaheen.com, working across component architecture, UI implementation, and performance.",
-      "Collaborate directly with designers and backend engineers to ship production-ready features.",
-      "Own responsive, accessible UI implementation from Figma handoff to deployment.",
-    ],
-  },
-  {
-    id: "exp-2",
-    role: "Frontend Engineering Intern",
-    company: "Fits Digital",
-    location: "Islamabad, Pakistan",
-    period: "1 Month",
-    status: "past",
-    points: [
-      "Completed an intensive 1-month internship focused on real production frontend work.",
-      "Picked up the team's codebase, tooling, and workflow quickly enough to earn a full-time offer.",
-      "Contributed UI components and bug fixes under senior engineer review.",
-    ],
-  },
+  id: "exp-2",
+  role: "Frontend Engineering Intern",
+  company: "Fits Digital",
+  location: "Islamabad, Pakistan",
+  period: "1 Month",
+  status: "past",
+  points: [
+    "Completed a 1-month frontend engineering internship at Fits Digital, contributing to the Zaheen.com platform.",
+    "Worked on the Zaheen LMS, including learner and parent dashboards, courses, authentication, profile setup, and learning-related features.",
+    "Contributed to the MDCAT module, including Past Papers, AI Questions, AI Tutor, Repeated Questions, Practice Online, and exam preparation features.",
+    "Worked on Origami and other Zaheen platform modules, implementing responsive UI, reusable React components, and frontend functionality.",
+    "Collaborated with senior developers and backend engineers to integrate APIs, fix bugs, and deliver production-ready features."
+  ],
+},
+ {
+  id: "exp-1",
+  role: "Frontend Engineer",
+  company: "Fits Digital",
+  location: "Islamabad, Pakistan",
+  period: "2026 – Present",
+  status: "current",
+  points: [
+    "Working as a Frontend Engineer at Fits Digital, Islamabad, since 2026.",
+    "Currently working on Zaheen.com, focusing on React-based UI development, component architecture, and responsive design.",
+    "Collaborate with designers and backend developers to build and deliver production-ready web features.",
+    "Work on frontend implementation, performance improvements, and responsive user interfaces.",
+  ],
+},
+ 
 ];
 
 export const education = [
@@ -133,14 +137,16 @@ export const projects = [
     status: "Completed",
   },
   {
-    id: "proj-3",
-    name: "REPLACE_ME_PROJECT_NAME",
-    description: "REPLACE_ME_PROJECT_DESCRIPTION",
-    tags: ["JavaScript", "HTML/CSS"],
-    image: "REPLACE_ME_PROJECT_IMAGE_2",
-    liveUrl: "REPLACE_ME_PROJECT_LIVE_LINK_3",
-    status: "Completed",
-  },
+  id: "proj-3",
+  name: "FlexGym Manager",
+  description:
+    "A modern and responsive gym management web application designed to simplify the management of gym members, trainers, workouts, exercise programs, and daily gym activities. The platform provides an organized and user-friendly experience for managing fitness-related information efficiently.",
+
+  tags: ["React", "JavaScript", "HTML/CSS", "Vite"],
+  image: gym,
+  liveUrl: "https://gym-app-six-cyan.vercel.app/",
+  status: "Completed",
+},
 ];
 
 export const certifications = [
