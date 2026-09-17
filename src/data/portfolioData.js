@@ -97,8 +97,8 @@ export const education = [
   {
     id: "edu-1",
     degree: "BS Computer Science",
-    institute: "REPLACE_ME_UNIVERSITY_NAME",
-    period: "REPLACE_ME_YEARS",
+    institute: "FG Degree College for men Peshawar Cantt",
+    period: "2022-2026",
     description:
       "Bachelor's degree covering programming fundamentals, data structures & algorithms, databases, and software engineering practices.",
   },
@@ -129,7 +129,7 @@ export const projects = [
     description: "Developed a modern, responsive website for FG Degree College For Men Peshawar to improve its online presence. The platform provides easy access to academic information, admissions details, and college announcements.",
     tags: ["React", "Tailwind CSS"],
     image: fg,
-    liveUrl: "https://my-college-project-6h12.vercel.app/",
+    liveUrl: "https://my-college-project-1is9.vercel.app/",
     status: "Completed",
   },
   {
@@ -160,9 +160,9 @@ export const certifications = [
   },
   {
     id: "cert-3",
-    name: "REPLACE_ME_CERTIFICATION_NAME",
-    issuer: "REPLACE_ME_ISSUER",
-    date: "REPLACE_ME_YEAR",
+    name: "I joined Fits Digital in 2026 as a Frontend Developer, working with React.js on the Zaheen project.",
+    issuer: "Fits Digital Islamabad",
+    date: "I joined Fits Digital in 2026, and I’m still working here",
     
   },
 ];
